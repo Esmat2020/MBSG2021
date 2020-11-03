@@ -1,0 +1,118 @@
+            .navbar
+            {
+              background-color: rgb(63, 72, 204);
+             
+            }
+            .navbar-brand
+            {
+                margin-top: -45px;
+                margin-left: 150px;
+                font-size: 30px;
+                max-height: 45px;
+                position: relative;
+                z-index: 10;
+            }
+            #navbarNav
+            {
+                margin-top: 25px;
+                margin-left: 240px;
+                font-size: 20px;
+                display: flex;
+                  justify-content: space-around;
+            }
+            .nav-item
+            {
+                padding-right: 20px;
+                margin-top: 2px;
+            }
+            #color
+            {
+              color: white;
+              font-family: Helvetica, sans-serif;
+
+            }
+            .topnav {
+                overflow: visible;
+                display: flex;
+                width: 40%;
+              }
+    
+              .topnav a {
+                float: left;
+                display: block;
+                color: black;
+                text-align: center;
+                text-decoration: none;
+                font-size: 20px;
+                border-bottom: 3px solid transparent;
+              }
+    
+              .topnav a:hover {
+                border-bottom: 3px solid red;
+              }
+    
+              .topnav a.active {
+                border-bottom: 3px solid red;
+              }
+              #ed-ph
+              {
+                border-bottom-right-radius: 90px;
+                border-bottom-left-radius: 90px;
+              }
+              #btnScrollToTOP
+            {
+              position: fixed;
+              right: 10px;
+              bottom: 10px;
+              width: 50px;
+              height: 50px;
+              border: none;
+              border-radius: 50%;
+              background: blue;
+              box-shadow: 0 0 10px rgba(0,0,0,0.25);
+              color: #ffffff;
+              outline: none;
+              cursor: pointer;
+            }
+            #btnScrollToTOP:active
+            {
+              background-color: rgb(163, 10, 10);
+            }
+            .fa {
+              padding: 30px;
+              font-size: 25px;
+              width: 30px;
+              height: 50px;
+              text-align:center;
+              text-decoration:none;
+              margin: 5px 3px;
+              border-radius: 100%;
+            }
+          .fa:hover {
+                opacity: 0.7;
+            }
+
+            .fa-facebook {
+              background: #3B5998;
+              color: white;
+            }
+
+            .fa-twitter {
+              background: #55ACEE;
+              color: white;
+            }
+
+
+            .fa-youtube {
+              background: #bb0000;
+              color: white;
+            }
+            .fa-instagram{
+              background:#125688;
+              color:white;
+            }
+            #font
+            {
+              font-size: 22px;
+            }
+                
