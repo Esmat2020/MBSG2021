@@ -47,6 +47,12 @@
             {
               font-size: 18px;
             }
+            #ww
+            {
+              color: white;
+              font-size: 18px;
+            }
+
         </style>
 </head>
 <body>
@@ -100,18 +106,95 @@
           <iframe width="960" height="415" src="https://www.youtube.com/embed/m1WzyGiVw5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <br><br><br><br>
           <h1 class="display-4 font-weight-bold " id="color">Meet our Family Tree Members</h1>
-          <div class="row">
-            <div class="col-md-6 col-sm-12">
-              <img src="ph34.jpg" width="550px" height="350px" alt="" id="radius">
+          
+          <div class="container">
+            <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel"><br>
+    
+                <!--Controls-->
+                <div class="controls-top">
+                  <a class="btn-floating" href="#multi-item-example" data-slide="prev"><button class="btn bg-warning" id="ww">prev</button></a>
+                  <a class="btn-floating" href="#multi-item-example" data-slide="next"><button class="btn bg-warning" id="ww">next</button></a>
+                </div>
+                <!--/.Controls-->
               
-      </div>
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                  <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                  <li data-target="#multi-item-example" data-slide-to="1"></li>
+                  <li data-target="#multi-item-example" data-slide-to="2"></li>
+                </ol>
+                <!--/.Indicators--><br>
+                
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+              
+                  <!--First slide-->
+                  <div class="carousel-item active">
+                    <div class=row>
+                    <div class="col-md-4">
+                      <div class=" mb-2" style="margin-left: 20px;">
+                        <img  src="ph34.jpg" width="503"  height="300" id="radius">
+                      </div>
+                    </div>
+              
+                    <div class="col-md-8">
+                      <div class=" mb-5" style="margin-left: 180px;">
+                        <img src="ph35.jpg" width="500" height="300" id="radius">
+                      </div>
+                    </div>
+              
+                    
+                  </div>
+                </div>
+                  <!--/.First slide-->
 
-      <div class="col-md-6 col-sm-12">
-        <img src="ph134.jpg" width="550px" height="350px" alt="" id="radius">
+                            
+              <!--Second slide-->
+              <div class="carousel-item">
+                <div class="row">
+                <div class="col-md-4">
+                  <div class=" mb-2" style="margin-left: 20px;">
+                    <img src="ph62.jpg" width="500" height="300" id="radius">
+                  </div>
+                </div>
+          
+                <div class="col-md-8">
+                  <div class=" mb-5" style="margin-left: 180px;">
+                    <img  src="ph36.jpg"  width="500" height="300" id="radius">
+                    
+                  </div>
+                </div>
+          
+          
+              </div>
+            </div>
+              <!--/.Second slide-->
+              
+              <!--Third slide-->
+              <div class="carousel-item">
+                <div class="row">
+                <div class="col-md-4">
+                  <div class=" mb-2" style="margin-left: 20px;">
+                    <img src="ph28.jpg"  width="490" height="300" id="radius">
+                  
+                  </div>
+                </div>
+          
+                <div class="col-md-4">
+                  <div class=" mb-5"  style="margin-left: 180px;">
+                    <img  src="ph54.jpg" width="490" height="300" id="radius">
+                   
+                  </div>
+                </div>
+
+          
+              </div></div>
+              <!--/.Third slide-->
+          
+          
+        </div></div></div><br><br>
+
         
-     </div>
-     </div><br><br><br>
-  
         <div class="customize-crew " id="nn">
           <div class="container py-5 ">
                  
@@ -158,7 +241,8 @@
           
             <div class="col-md-8 mb-4">
                     <div class="x ml-5">
-                      <h4 class="display-4 font-weight-bold border-radius"  id="color">Specific programs for some schools</h4>
+                      <h4 class="display-4 font-weight-bold border-radius"  id="color">Specific programs</h4>
+                      <h4 class="display-4 font-weight-bold border-radius"  id="color">for schools</h4>
                       <p class="lead p-hidden11" style="display: none;" id="color">Specific programs are also implemented in some schools; the most significant of them are listed below:
                       </p>
                        <ol >
@@ -231,8 +315,8 @@
       <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
 
         <!-- Content -->
-        <h4 class="font-weight-bold text-uppercase mb-4">Content</h4>
-        <p id="font">This is a Unique and Creatively designed, you can use the website to collect information by a new creative way .</p>
+        <h4 class="font-weight-bold text-uppercase mb-4" style="color:black;">Content</h4>
+        <p id="font" style="color:black;">This is a Unique and Creatively designed, you can use the website to collect information by a New creative way .</p>
 
       </div>
       <!-- Grid column -->
@@ -258,7 +342,7 @@
           </li>
           <li>
             <p>
-              <a href="about.html#ac" id="color4">Scout History</a>
+              <a href="https://www.scout.org/scout-history" id="color4">Scout History</a>
             </p>
           </li>
           <li>
