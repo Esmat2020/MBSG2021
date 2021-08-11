@@ -120,10 +120,7 @@
               background:#125688;
               color:white;
             }
-            #font
-            {
-              font-size: 22px;
-            }
+           
             #color4
             {
               color: white;
@@ -134,7 +131,13 @@
             {
               color: white;
             }
-            
+            #font
+            {
+              font-size: 22px;
+              font-weight: 500;
+
+              
+            }
             @media (max-width: 1180px) 
             {
              
