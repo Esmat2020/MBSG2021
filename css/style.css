@@ -241,7 +241,7 @@
                 border-radius: 75px;
                 box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
                 flex-direction: column;
-                width: 220%;
+                width: 205%;
                 height: 300px;
               }
               .y
@@ -250,8 +250,8 @@
               }
               #rr
               {
-                border-radius: 25px;
-                padding-top: 20px;
+                border-radius: 50px;
+                margin-top: 20px;
                 width: 100%;
               }
               #animation
