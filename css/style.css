@@ -209,9 +209,10 @@
                 border-radius: 75px;
                 box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
                 flex-direction: column;
-                width: 255%;
+                width: 240%;
                 height: 300px;
               }
+              
               #green-week
               {
                 box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
