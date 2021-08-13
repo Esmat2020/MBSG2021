@@ -266,7 +266,11 @@
               {
                 margin-right: 40px;
               }
-             
+             .yy
+             {
+               margin-right: -80px;
+               font-size: 10px;
+             }
               #rr
               {
                 border-radius: 50px;
@@ -339,8 +343,8 @@
               }
               .family
               {
-                margin-left: -30px;
-                width: 130%
+                margin-left: -37px;
+                width: 115%
               }
               #photo2
               {
@@ -359,6 +363,10 @@
               {
                 flex-direction: column;
                 width: 100%;
-                height: 200px;
+                height: 270px;
+              }
+              #size
+              {
+                font-size: 35px;
               }
             }
