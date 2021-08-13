@@ -250,6 +250,7 @@
               #corona2
               {
                 flex-direction: column;
+                width: 100%;
                 height: 200px;
                 margin-bottom:50px ;
               }
@@ -335,9 +336,5 @@
               {
                 display: none;
               }
-              .container .family
-              {
-                width: 150%;
-              }
-             
+              
             }
