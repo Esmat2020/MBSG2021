@@ -250,8 +250,7 @@
               #corona2
               {
                 flex-direction: column;
-                width: 280%;
-                height: 300px;
+                height: 200px;
                 margin-bottom:50px ;
               }
               #map
@@ -335,6 +334,10 @@
               #br3
               {
                 display: none;
+              }
+              .container .family
+              {
+                width: 150%;
               }
              
             }
