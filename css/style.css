@@ -164,7 +164,7 @@
               {
                 flex-direction: column;
                 width: 100%;
-                height: 290px;
+                height: 270px;
               }
               #photo1
               {
@@ -338,6 +338,13 @@
                 width: 100%;
                 height: 210px;
               }
+              #about-photo2
+              {
+                flex-direction: column;
+                width: 100%;
+                height: 210px;
+                border-radius: 25px;
+              }
               #br3
               {
                 display: none;
@@ -377,5 +384,10 @@
               #activities
               {
                 margin-left: 5px;
+              }
+              #nnn
+              {
+                margin: 150px;
+
               }
             }
