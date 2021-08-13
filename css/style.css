@@ -338,7 +338,8 @@
               }
               .family
               {
-                width: 130%;
+                margin-left: -40px;
+                width: 118%
               }
               #photo2
               {
