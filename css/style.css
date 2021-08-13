@@ -250,8 +250,8 @@
               #corona2
               {
                 flex-direction: column;
-                width: 100%;
-                height: 200px;
+                width: 150%;
+                height: 280px;
                 margin-bottom:50px ;
               }
               #map
@@ -336,5 +336,14 @@
               {
                 display: none;
               }
-              
+              .family
+              {
+                width: 130%;
+              }
+              #photo2
+              {
+                flex-direction: column;
+                width: 100%;
+                height: 270px;
+              }
             }
