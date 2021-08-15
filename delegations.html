@@ -98,6 +98,30 @@
             {
               font-size: 18px;
             }
+            @media screen and (max-width: 768px)
+                  {
+                  .topnavb {
+                  overflow: visible ;
+                  display: flex;
+                  justify-content: space-around;
+                  width: 40%;
+                  margin-top: 50px;
+                  margin-left: 50px;
+                }
+                
+                .nav-item
+                {
+                  float: left;
+                  display: block;
+                  color: white;
+                  text-align: center;
+                  margin-top: 20px;
+                  padding: 14px 16px;
+                  text-decoration: none;
+                  font-size: 17px;
+                  border-bottom: 3px solid transparent;
+                }
+              }
                 </style>
     <body>
       <button id="btnScrollToTOP">
@@ -124,9 +148,40 @@
         <nav class="navbar navbar-light navbar-expand-lg fixed-top">
           <a class="navbar-brand" href="home.html" id="color" >
             <img src="logo4.png" width="132" height="120" id="ed-ph" >
-          <a id="brand" style="color: white; font-size: 30px; padding-top: 30px; font-family: Arial, Helvetica, sans-serif;">Misr Baladna Scout Group</a>
+          <a class="brand" style="color: white; font-size: 30px; padding-top: 30px; font-family: Arial, Helvetica, sans-serif;">Misr Baladna Scout Group</a>
         </a>
-            
+        <div id="myNav2">
+          <div id="myNav" class="overlay ">
+      
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="topnavb">
+              <ul class="nav-links ml-auto">
+                              
+                <li class="nav-item">
+                  <a class="nav-link navbar-custom font-weight-bold active" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link dady font-weight-bold "  href="delegations.html">Delegations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-weight-bold" href="about.html">About Us</a>
+                </li>
+      
+              </ul>
+            </div>
+          </div>
+      
+          <a  style="font-size: 35px; cursor:pointer;color: white;" class="burger1"  onclick="openNav()">&#9776;</a>
+          <script>
+          function openNav() {
+            document.getElementById("myNav").style.width = "48%";
+          }
+          
+          function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+          }
+          </script>
+        </div>
             <div class="collapse navbar-collapse topnav" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item ">
