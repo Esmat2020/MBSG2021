@@ -89,7 +89,7 @@
             }
             .fa {
               padding: 30px;
-              font-size: 25px;
+              font-size:25px;
               width: 30px;
               height: 50px;
               text-align:center;
@@ -104,12 +104,9 @@
             .fa-facebook {
               background: #3B5998;
               color: white;
+
             }
 
-            .fa-twitter {
-              background: #55ACEE;
-              color: white;
-            }
 
 
             .fa-youtube {
@@ -260,7 +257,10 @@
             }
             @media (max-width: 1180px) 
             {
-             
+              #media
+              {
+                margin-right: 50px;
+              }
               .brand
               {
                 display: none;
