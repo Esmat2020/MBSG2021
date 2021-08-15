@@ -138,10 +138,128 @@
 
               
             }
+            .topnavb {
+              overflow: visible ;
+              display: flex;
+              justify-content: space-around;
+              width: 40%;
+
+            }
+
+            .topnavb a {
+              float: left;
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+              border-bottom: 3px solid transparent;
+            }
+
+            .topnavb a:hover {
+              border-bottom: 3px solid red;
+            }
+
+            .topnavb a.active {
+              border-bottom: 3px solid red;
+            }
+            .burger1
+            {
+              display: none;
+            }
+            .overlay {
+              height: 50%;
+              width: 0;
+              position: fixed;
+              z-index: 1;
+              top: 25px;
+              right: 1px;
+              overflow-x: hidden;
+              transition: 0.5s;
+              border-radius:25px;
+              background-size: cover;
+              background-position: center;
+            }
+            #myNav
+            {
+              background-color: rgb(63, 72, 204);
+
+            }
+            .overlay a {
+              padding: 0px;
+              text-decoration: none;
+              font-size: 25px;
+              color: white;
+              display: block;
+              transition: 0.3s;
+              
+            }
+            
+            
+            
+            .overlay .closebtn {
+              position: absolute;
+              top:0px;
+              right: 15px;
+              font-size: 60px;
+              
+            }
+            
+            @media screen and (max-height: 450px) {
+              .overlay a {font-size: 20px}
+              .overlay .closebtn {
+              font-size: 40px;
+              top: 25px;
+              right: 15px;
+              }
+            }
+            
+            
+@media screen and (max-width: 768px)
+{
+  
+  
+
+  .topnavb {
+    overflow: visible ;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-top: -25px;
+    margin-left: 50px;
+  }
+  .topnavb a:hover {
+    border-bottom: 3px solid red;
+  }
+
+  .topnavb a.active {
+    border-bottom: 3px solid red;
+  }
+  
+  .nav-item
+  {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .burger1
+  {
+    display: block;
+    margin-left: 350px;
+  }
+
+}
             @media (max-width: 1180px) 
             {
              
-              #brand
+              .brand
               {
                 display: none;
               }
