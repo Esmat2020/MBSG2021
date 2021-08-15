@@ -184,6 +184,8 @@
             #myNav
             {
               background-color: rgb(63, 72, 204);
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+              background-image: url('ph147.jpg');
 
             }
             .overlay a {
@@ -220,7 +222,10 @@
 {
   
   
-
+  #br4
+  {
+    display: flex;
+  }
   .topnavb {
     overflow: visible ;
     display: flex;
