@@ -252,7 +252,12 @@
   .burger1
   {
     display: block;
-    margin-left: 350px;
+    margin-left: 270px;
+  }
+  #myNav2
+  {
+    position: relative; top:30px;
+    margin-top: -20px;
   }
 
 }
