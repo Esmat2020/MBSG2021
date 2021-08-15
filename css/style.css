@@ -170,7 +170,7 @@
             }
             .overlay {
               height: 56%;
-              width: 45%;
+              width: 0;
               position: fixed;
               z-index: 1;
               top: 25px;
@@ -193,7 +193,7 @@
               color: white;
               display: block;
               transition: 0.3s;
-              margin-right: 30px;
+              margin-right: 50px;
             }
             
             
