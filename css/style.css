@@ -202,7 +202,10 @@
               font-size: 60px;
               
             }
-            
+            #buttons2
+              {
+                margin-top: 680px;
+              }
             @media screen and (max-height: 450px) {
               .overlay a {font-size: 20px}
               .overlay .closebtn {
@@ -440,6 +443,10 @@
               #buttons
               {
                 margin-top: 400px;
+              }
+              #buttons2
+              {
+                margin-top: 480px;
               }
               #delegations3
               {
