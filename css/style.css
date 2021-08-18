@@ -457,6 +457,15 @@
                 padding-left: 50px;
                 text-align: center;
               }
+              .caption
+              {
+                margin-top: 880px;
+                font-size: 20px;
+              }
+              #caption2
+              {
+                display: none;
+              }
               #delegations3
               {
                 flex-direction: column;
