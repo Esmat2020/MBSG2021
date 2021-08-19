@@ -454,13 +454,12 @@
               }
               #buttons4
               {
-                padding-left: 50px;
-                text-align: center;
+                padding-left: 40px;
               }
-              .caption
+              #caption
               {
                 margin-top: 880px;
-                font-size: 20px;
+                font-size: 15px;
               }
               #caption2
               {
